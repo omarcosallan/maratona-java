@@ -14,5 +14,22 @@ public class Aula04Operadores {
 
         result = number1 / (double) number2;
         System.out.println(result);
+
+        // %
+        int rest = 20 % 2;
+        System.out.println(rest);
+
+        // > < >= <= == !=
+        boolean isTenIsGreaterThanTwenty = 10 > 20;
+        boolean isTenIsLessThanTwenty = 10 < 20;
+        boolean isTenIsEqualThanTwenty = 10 == 20;
+        boolean isTenIsEqualThanTen = 10 == 10;
+        boolean isTenIsDifferentThanTen = 10 != 10;
+
+        System.out.println("isTenIsGreaterThanTwenty " + isTenIsGreaterThanTwenty);
+        System.out.println("isTenIsLessThanTwenty " + isTenIsLessThanTwenty);
+        System.out.println("isTenIsEqualThanTwenty " + isTenIsEqualThanTwenty);
+        System.out.println("isTenIsEqualThanTen " + isTenIsEqualThanTen);
+        System.out.println("isTenIsDifferentThanTen " + isTenIsDifferentThanTen);
     }
 }
