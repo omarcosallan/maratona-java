@@ -46,5 +46,28 @@ public class Aula04Operadores {
         boolean isCanIBuyPlaystation = totalCurrentAccountAmount > valuePlaystation
                 || totalValueSavingsAccount > valuePlaystation;
         System.out.println("isCanIBuyPlaystation " + isCanIBuyPlaystation);
+
+        // = += -= *= /= %=
+        double bonus = 1800.0;
+        bonus += 1000.0; // 2800.0
+        bonus -= 1000.0; // 1800.0
+        bonus *= 2; // 3600.0
+        bonus /= 2; // 1800.0
+        bonus %= 2; // 0.0
+        System.out.println("bonus " + bonus);
+
+        // ++ --
+        int count = 0;
+        count += 1; // count = count + 1;
+        count++; // count = count + 1;
+        count--; // count = count - 1;
+        ++count;
+        --count;
+        System.out.println("count " + count);
+
+        int count2 = 0;
+        System.out.println(count2++); // 0 => O operador apos a variável só incrementa depois da impressão
+        System.out.println(count2); // 1
+        System.out.println(++count2); // 2 => O operador antes da variável incrementa antes da impressão
     }
 }
