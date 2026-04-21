@@ -31,5 +31,13 @@ public class Aula04Operadores {
         System.out.println("isTenIsEqualThanTwenty " + isTenIsEqualThanTwenty);
         System.out.println("isTenIsEqualThanTen " + isTenIsEqualThanTen);
         System.out.println("isTenIsDifferentThanTen " + isTenIsDifferentThanTen);
+
+        // && (AND) || (OR) !
+        int age = 29;
+        float salary = 3500.0F;
+        boolean isWithinTheLawGreaterThanThirty = age >= 30 && salary >= 4612.00;
+        boolean isWithinTheLawLessThanThirty = age < 30 && salary >= 3381.00;
+        System.out.println("isWithinTheLawGreaterThanThirty " + isWithinTheLawGreaterThanThirty);
+        System.out.println("isWithinTheLawLessThanThirty " + isWithinTheLawLessThanThirty);
     }
 }
