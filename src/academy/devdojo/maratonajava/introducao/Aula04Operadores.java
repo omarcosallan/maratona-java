@@ -39,5 +39,12 @@ public class Aula04Operadores {
         boolean isWithinTheLawLessThanThirty = age < 30 && salary >= 3381.00;
         System.out.println("isWithinTheLawGreaterThanThirty " + isWithinTheLawGreaterThanThirty);
         System.out.println("isWithinTheLawLessThanThirty " + isWithinTheLawLessThanThirty);
+
+        double totalCurrentAccountAmount = 200.00;
+        double totalValueSavingsAccount = 10000.00;
+        double valuePlaystation = 5000.00;
+        boolean isCanIBuyPlaystation = totalCurrentAccountAmount > valuePlaystation
+                || totalValueSavingsAccount > valuePlaystation;
+        System.out.println("isCanIBuyPlaystation " + isCanIBuyPlaystation);
     }
 }
