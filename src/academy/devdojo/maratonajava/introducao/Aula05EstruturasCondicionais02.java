@@ -15,7 +15,7 @@ public class Aula05EstruturasCondicionais02 {
         } else {
             category = "Adult Category";
         }
-
+//        category = age < 15 ? "Children's Category" : age >= 15 && age < 18 ? "Youth Category" : "Adult  Category";
         System.out.println(category);
     }
 }
